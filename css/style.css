@@ -1,0 +1,296 @@
+@font-face {
+     font-family: 'Roboto-Regular';
+     src: url(fontfamily/Roboto-Regular.ttf);
+}
+ @font-face {
+     font-family: 'Roboto-Italic';
+     src: url(fontfamily/Roboto-Italic.ttf);
+}
+ @font-face {
+     font-family: 'Roboto-Medium';
+     src: url(fontfamily/Roboto-Medium.ttf);
+}
+ @font-face {
+     font-family: 'Roboto-Bold';
+     src: url(fontfamily/Roboto-Bold.ttf);
+}
+ @font-face {
+     font-family: 'Poppins-ExtraLight';
+     src: url(fontfamily/Poppins-ExtraLight.ttf);
+}
+ @font-face {
+     font-family: 'Poppins-ExtraBold';
+     src: url(fontfamily/Poppins-ExtraBold.ttf);
+}
+ body {
+     margin: 0;
+     padding: 0;
+     font-family: 'Roboto-Regular';
+}
+
+
+
+/************ Extras ***********/
+ .btnStyle {
+     transform: translateZ(0) !important;
+     backface-visibility: hidden !important;
+     transition: 300ms ease-out !important;
+}
+ .btnStyle:hover {
+     transform: scale(0.9) !important;
+}
+ .btnStyle2 {
+     transform: translateZ(0) !important;
+     backface-visibility: hidden !important;
+     transition: 300ms ease-out !important;
+}
+ .btnStyle2:hover {
+     transform: scale(1.1) !important;
+}
+ .mr0{
+     margin-right: 0;
+}
+ .ml5 {
+     margin-left: 5px !important;
+}
+ .ml7 {
+     margin-left: 7px !important;
+}
+ .ml10 {
+     margin-left: 10px;
+}
+ .ml15 {
+     margin-left: 15px;
+}
+ .ml20 {
+     margin-left: 20px;
+}
+ .ml30 {
+     margin-left: 30px;
+}
+ .ml40 {
+     margin-left: 40px;
+}
+ .ml50 {
+     margin-left: 50px;
+}
+ .ml100 {
+     margin-left: 100px;
+}
+ .mb5 {
+     margin-bottom: 5px;
+}
+ .mb10 {
+     margin-bottom: 10px;
+}
+ .mb15 {
+     margin-bottom: 15px;
+}
+ .mb20 {
+     margin-bottom: 20px;
+}
+ .mb30 {
+     margin-bottom: 30px;
+}
+ .mb40 {
+     margin-bottom: 40px;
+}
+ .mb100 {
+     margin-bottom: 100px;
+}
+ .mb150 {
+     margin-bottom: 150px;
+}
+ .mt5 {
+     margin-top: 5px;
+}
+ .mt10 {
+     margin-top: 10px;
+}
+ .mt15 {
+     margin-top: 15px;
+}
+ .mt20 {
+     margin-top: 20px;
+}
+ .mt30 {
+     margin-top: 30px;
+}
+ .mt40 {
+     margin-top: 40px;
+}
+ .mt50 {
+     margin-top: 50px;
+}
+ .mt60 {
+     margin-top: 60px;
+}
+ .mt70 {
+     margin-top: 70px;
+}
+ .mt80 {
+     margin-top: 80px;
+}
+ .mt100 {
+     margin-top: 100px;
+}
+ .mt-10 {
+     margin-top: -10px;
+}
+ .mt-20 {
+     margin-top: -20px;
+}
+ .mt-30 {
+     margin-top: -30px;
+}
+ .mt-40 {
+     margin-top: -40px;
+}
+ .mt-50 {
+     margin-top: -50px;
+}
+ .pt5 {
+     padding-top: 5px;
+}
+ .pt10 {
+     padding-top: 10px;
+}
+ .pt15 {
+     padding-top: 15px;
+}
+ .pt20 {
+     padding-top: 20px;
+}
+ .pt30 {
+     padding-top: 30px;
+}
+/********* font-size **********/
+ .fbold {
+     font-weight: 600;
+}
+ .f11 {
+     font-size: 11px;
+}
+ .f12 {
+     font-size: 12px;
+}
+ .f13 {
+     font-size: 13px;
+}
+ .f14 {
+     font-size: 14px !important;
+}
+ .f15 {
+     font-size: 15px;
+}
+ .f16 {
+     font-size: 16px;
+}
+ .f17 {
+     font-size: 17px;
+}
+ .f18 {
+     font-size: 18px;
+}
+ .f19 {
+     font-size: 19px;
+}
+ .f20 {
+     font-size: 20px;
+}
+ .white {
+     color: #fff !important;
+}
+ .whiteMontbold {
+     color: #fff;
+     font-weight: bold;
+}
+ .block{
+     display: block;
+}
+
+@media only screen and (max-width: 767px){
+
+}
+@media (min-width: 768px) and (max-width: 991px){
+
+}
+@media (min-width: 992px) and (max-width: 1199px){
+
+}
+
+@media (min-width: 1480px) and (max-width: 5120px){
+     .container{
+         width: 1440px !important 
+    }
+}
+
+
+
+
+
+
+
+
+/* hghj */
+
+.cards-wrapper {
+     display: flex;
+     justify-content: center;
+   }
+   .card img {
+     max-width: 100%;
+     max-height: 100%;
+   }
+   .card {
+     margin: 0 0.5em;
+     box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+     border: none;
+     border-radius: 0;
+   }
+   .carousel-inner {
+     padding: 1em;
+   }
+   .carousel-control-prev,
+   .carousel-control-next {
+     background-color: red;
+     width: 5vh;
+     height: 5vh;
+     border-radius: 50%;
+     top: 50%;
+     transform: translateY(-50%);
+   }
+   @media (min-width: 768px) {
+     .card img {
+       height: 11em;
+     }
+   }
+
+
+
+
+
+.red{
+     color: red;
+}
+
+.checked {
+     color: orange;
+   }
+.h-input{
+    
+     width: 250px;
+     background-color: #e2ddde;
+ 
+} 
+.h-input>input{
+
+     width: 200px;
+     height: 30px;
+     background-color: #e2ddde;
+     border-style: none;
+     text-align: left;
+}
+.navbar-toggler{
+     background-color: #e2ddde;
+}
